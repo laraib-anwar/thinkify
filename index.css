@@ -1,0 +1,158 @@
+body {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .container {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 16px;
+    max-width:400px;
+  }
+  
+  .container1 {
+   background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 16px;
+    color: white;
+    float: right;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: flex-start  ;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  
+  .box1 {
+    display: flex;
+    justify-content: flex-end  ;
+  }
+  
+  
+  
+  .darker {
+    border-color: #ccc;
+    background-color: #0040FD;
+  }
+  
+  
+  .icon {
+   float: left;
+    max-width: 20px;
+    margin-right: 24px;
+    border-radius: 50%;
+  }
+  
+  .header {
+      background: linear-gradient(109.44deg, #0040FF 1.32%, #0B3BCA 99.1%);
+      display: flex;
+      justify-content: space-between;
+      height:62px;
+  }
+  .left {
+      display: flex;
+  }
+  
+  .right {
+      display: flex;
+  }
+  
+  .message-box {
+      display: flex;
+  }
+  
+  .message {
+  width:90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 16px;
+  background: #F5F5F5;
+  border: 0.25px solid rgba(0, 0, 0, 0.22);
+  border-radius: 20px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    margin-left:5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .img-card {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container2 {
+    padding: 2px 16px;
+  }
+
+  .container3 {
+    padding: 2px 8px; 
+  }
+  
+  .card-container {
+      display: flex;
+  }
+
+  hr.solid {
+    border-top: 1px solid #bbb;
+  }
+
+  hr.solid1 {
+    border-top: 1px solid #bbb;
+  }
+  
+  .book1 {
+    color: #575757;
+    text-align: center;
+    padding-top: 10px;  
+  }
+
+  .book2 {
+    color: #575757;
+    text-align: center;
+    padding-top: 20px;  
+  }
+
+  .explore {
+    display: flex;
+    justify-content: center;
+  }
+
+  .exp {
+    color: #575757;
+    padding-right:5px;
+  }
+ 
+  
+  .ellipsis-container {
+      display:flex;
+      justify-content: center;
+      align-items:center;
+      padding-top:10px;
+  }
+  .ellipsis {
+      height:8px;
+      width:8px;
+      border-radius: 20px;
+      border:2px solid blue;
+      background-color:blue;
+  }
+  
+  .ellipsis1 {
+      height:8px;
+      width:8px;
+      border-radius: 20px;
+      margin-left: 2px;
+      border:2px solid grey;
+      background-color:grey;
+  }
